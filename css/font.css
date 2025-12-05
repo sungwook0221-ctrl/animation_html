@@ -1,1 +1,12 @@
+<<<<<<< HEAD
 @charset "UTF-8";
+
+@font-face {
+    font-family: 'OngleIpSeaBreeze';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2510-1@1.0/Ownglyph_the_sea_breeze-Rg.woff2') format('woff2');
+    font-weight: normal;
+    font-display: swap;
+}
+=======
+@charset "UTF-8";
+>>>>>>> 2109761479d37ec2ae4c6f36466a59b072437b2b
