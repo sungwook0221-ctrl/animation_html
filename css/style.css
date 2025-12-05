@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+@import url(reset.css);
+@import url(font.css);
+
+body {background: url(../images/slide22.jpg); background-size: cover;}
+
+header {height: 80px; position: absolute; width: 100%; transition: 0.7s;}
+header .container {width: 1400px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; height: 100%;}
+header h1 {width: 150px;  display: flex; align-items: center;}
+header nav {}
+header nav .gnb {display: flex;}
+header nav .gnb li {font-size: 20px; }
+header nav .gnb li a {padding: 20px 40px;display: block; color: #fff;}
+header audio {width: 100px; height: 50px; transition: 0.7s;}
+
+header:hover {height: 130px; background: rgba(255, 255, 255, 0.7); backdrop-filter: blur{10px};}
+header:hover .gnb li a {color: #000;}
+header:hover audio {width: 300px;}
+
+.textbox {position: absolute; right: 250px;top: 150px;  display: flex; flex-direction: row-reverse; animation: textAni 3s;}
+
+@keyframes textAni {
+    0% {right: 500px;}
+    100% {right: 250px;}
+}
+.textbox li {font-size: 70px; border: 1px solid red; width: 80px; color: #fff;}
+
+
+.textbox li span {display: block; height: 90px;}
+.textbox li span.mb40 {margin-bottom: 40px;}
